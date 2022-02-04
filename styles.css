@@ -1,0 +1,148 @@
+
+
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+
+  /* height: 100vh;
+  max-width: 100vh; */
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+
+body {
+  background-color: #FFC300;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+  border: 0px;
+  background-image: url("images/catanMobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#head{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+  color: #4ECCA3;
+  display: none;
+}
+
+#header{
+  font-family: 'Lobster', cursive;
+  font-size: 4rem;
+}
+
+.img1 {
+  width:80px;
+  height: 80px;
+}
+
+.img2 {
+  width:80px;
+  height: 80px;
+}
+
+.btn {
+  background: #d9cb34;
+  background-image: -webkit-linear-gradient(top, #d9cb34, #b82b2b);
+  background-image: -moz-linear-gradient(top, #d9cb34, #b82b2b);
+  background-image: -ms-linear-gradient(top, #d9cb34, #b82b2b);
+  background-image: -o-linear-gradient(top, #d9cb34, #b82b2b);
+  background-image: linear-gradient(to bottom, #d9cb34, #b82b2b);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  text-shadow: 1px 1px 3px #000000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 50px;
+  padding: 20px 40px 20px 40px;
+  border: solid #000000 6px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #fa953c;
+  background-image: -webkit-linear-gradient(top, #fa953c, #d93434);
+  background-image: -moz-linear-gradient(top, #fa953c, #d93434);
+  background-image: -ms-linear-gradient(top, #fa953c, #d93434);
+  background-image: -o-linear-gradient(top, #fa953c, #d93434);
+  background-image: linear-gradient(to bottom, #fa953c, #d93434);
+  text-decoration: none;
+}
+
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+
+footer {
+  margin-top: 60%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+@media only screen and (min-width: 768px) {
+  #head{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 7rem;
+    color: #4ECCA3;
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 1000px) {
+  #head{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 7rem;
+    color: #4ECCA3;
+    display: block;
+  }
+
+  body {
+    background-color: #FFC300;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    border: 0px;
+    background-image: url("images/catan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .img1 {
+    width:80%;
+    height: 80%;
+  }
+
+  .img2 {
+    width:80%;
+    height: 80%;
+  }
+
+}
