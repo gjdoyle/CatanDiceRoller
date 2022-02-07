@@ -25,5 +25,5 @@ image2.setAttribute("src", randomImageSource2);
 
 const diceCountSum = randomNumber1 + randomNumber2;
 const header = document.getElementById("header");
-header.innerHTML = "Take resources from  " + diceCountSum;
+header.innerHTML = "Take Resources from  " + diceCountSum;
 };
